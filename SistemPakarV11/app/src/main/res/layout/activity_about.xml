@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view">
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:text="Aplikasi Sistem pakar Penyakit Anak Dibuat Oleh Muhammad Sufi Aulia Sebagai Tugas Akhir/Skripsi Untuk menyelesaikan Studi Di Universitas AMIKOM Yogyakarta"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Spesial Thanks Ayah dan Ibu Saya Selaku Narasumber, Pakar Dll"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Spesial Thanks Pak Arif Dwi Laksito Selaku Dosen Pembimbing"
+        />
+
+</LinearLayout>

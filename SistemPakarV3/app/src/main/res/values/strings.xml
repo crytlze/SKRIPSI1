@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sistem Pakar V3</string>
+    <string name="demam">Apabila anak mengalami demam kurang dari 39 derajat celcius, maka secara umum mereka tidak memerlukan obat penurun panas – tergantung dengan kondisi si anak. Panas akan berkurang seiring dengan istirahat yang cukup dan mengompres bagian tubuh yang demam.  Namun jika demam melebihi suhu tersebut, obat penurun demam lebih baik diminum. Dan bila demam bertahan selama tiga hari, sebaiknya melakukan pemeriksaan medis lebih lanjut.</string>
+</resources>

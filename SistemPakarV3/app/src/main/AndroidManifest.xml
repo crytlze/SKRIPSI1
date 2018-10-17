@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kriz.sistempakarv3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".G01" />
+        <activity android:name=".G02" />
+        <activity android:name=".G08" />
+        <activity android:name=".G03" />
+        <activity android:name=".G04" />
+        <activity android:name=".G05" />
+        <activity android:name=".G06" />
+        <activity android:name=".G07" />
+        <activity android:name=".G09" />
+        <activity android:name=".G10" />
+        <activity android:name=".G11" />
+        <activity android:name=".G12" />
+        <activity android:name=".G13" />
+        <activity android:name=".G14" />
+        <activity android:name=".G15" />
+        <activity android:name=".G16" />
+        <activity android:name=".G17" />
+        <activity android:name=".G18" />
+        <activity android:name=".G19" />
+        <activity android:name=".G20" />
+        <activity android:name=".G21" />
+        <activity android:name=".P01" />
+        <activity android:name=".P02" />
+        <activity android:name=".P03" />
+        <activity android:name=".P04" />
+        <activity android:name=".P05" />
+        <activity android:name=".P06" />
+        <activity android:name=".P07" />
+        <activity android:name=".P08" />
+        <activity android:name=".G22" />
+        <activity android:name=".P09"></activity>
+    </application>
+
+</manifest>

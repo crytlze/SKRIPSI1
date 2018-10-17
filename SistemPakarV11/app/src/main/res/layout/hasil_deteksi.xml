@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/view">
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/toolbar_layout"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:text="Hasil Deteksi"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorOrange"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:text="Gejala Yang Anak anda alami adalah "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/final_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_alignLeft="@+id/textView3"
+
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="5dp"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/final_result"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:text="Dari Gejala yang ada dapat disimpulkan bahwa terjangkit penyakit"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/textView5"
+                android:layout_alignTop="@+id/textView5"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="48dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/namapenyakit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView5"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorOrange"
+                    android:backgroundTintMode="multiply"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/penyakitnol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView5"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/colorOrange"
+                    android:backgroundTintMode="multiply"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/persen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/namapenyakit"
+                    android:layout_below="@id/textView5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/namapenyakit"
+                    android:background="@color/colorOrange"
+                    android:backgroundTintMode="multiply"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/persen2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/namapenyakit"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_toRightOf="@+id/namapenyakit"
+                    android:backgroundTintMode="multiply"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/persen3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/namapenyakit"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_toRightOf="@+id/namapenyakit"
+                    android:backgroundTintMode="multiply"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/periksa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+
+                android:backgroundTintMode="multiply"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/mulailagi"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+                android:layout_marginTop="35dp"
+                android:background="@color/colorOrange"
+                android:text="Deteksi Ulang"
+                android:textColor="#ffffff" />
+            <!-- android:layout_toRightOf="@+id/periksa"
+                android:layout_toEndOf="@+id/periksa"-->
+
+            <Button
+                android:id="@+id/penanganan"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="35dp"
+                android:background="@color/colorOrange"
+                android:text="Cek Penanganan"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

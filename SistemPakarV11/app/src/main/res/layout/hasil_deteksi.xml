@@ -190,11 +190,11 @@
 
 
                 android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginTop="35dp"
                 android:background="@color/colorOrange"
-                android:text="Cek Penanganan"
-                android:textColor="#ffffff"
-                android:layout_alignParentRight="true" />
+                android:text="Cek Daftar Penyakit"
+                android:textColor="#ffffff" />
 
 
         </RelativeLayout>

@@ -111,7 +111,7 @@ public class Diagnosa extends AppCompatActivity {
         data.setYa(kode_ya);
         data.setTidak(kode_tidak);
         gejala.setClickable(false);
-        gejala.setText("Apakah anda mengalami\n" + data.getDiagnosa() + "?");
+        gejala.setText("Apakah anak anda \n" + data.getDiagnosa() + "?");
     }
 
     public void getYA() {
